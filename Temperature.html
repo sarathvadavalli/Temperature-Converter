@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Temperature Converter</title>
+        <link rel = "stylesheet" href = "Temperature.css">
+    </head>
+    <body>
+        <h1 style = "color: darkred"><center><u>Temperature</u> &nbsp; <u>Converter</u></center></h1>
+        <div class = "image">
+            <img src = "scales.jpeg" width = "35%" height = "60%">
+            <div class="container">
+                <form class="cf">
+                    <label>From:</label>
+                    <select id="fromTemp">
+                        <label for="fromCelsius">
+                          <option value="celsius" id="fromCelsius">Celsius</option>
+                        </label>
+                        <label for="fromFahrenheit">
+                          <option value="fahrenheit" id="fromFahrenheit">Fahrenheit</option>
+                        </label>
+                        <label for="fromKelvin">
+                          <option value="kelvin" id="fromKelvin">Kelvin</option>
+                        </label>
+                    </select><br><br>
+                    <label for="convertFrom">
+                        <input type="number" id="convertFrom" placeholder="Enter the value" required />
+                    </label>
+                </form>
+                <img src = "Arrow.png" width = "30%" height = "40%">
+                <form class="cf">
+                    <label>To:</label>
+                    <select id="toTemp">
+                        <label for="toCelsius">
+                          <option value="celsius" id="toCelsius">Celsius</option>
+                        </label>
+                        <label for="toFahrenheit">
+                          <option value="fahrenheit" id="toFahrenheit" selected>Fahrenheit</option>
+                        </label>
+                        <label for="toKelvin">
+                          <option value="kelvin" id="toKelvin">Kelvin</option>
+                        </label>
+                      </select><br><br>
+                      <div id="tempResult">
+                     </div>
+                    </form>
+            </div>   
+        </div>
+        <script src="Temperature.js"></script>
+    </body>
+</html>

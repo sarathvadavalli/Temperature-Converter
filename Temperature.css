@@ -1,0 +1,57 @@
+body{
+    background-color: aquamarine;  
+}
+
+.container{
+    width: 80%;
+    height: 400px;
+    background-color:thistle;
+    display: flex;
+    align-items: center;
+    justify-content:center;    
+}
+
+.cf{
+   background-color:coral;
+   height: 140px;
+   width: 200px;
+   padding: 10px 30px; 
+}
+
+.image{
+    background-color:blueviolet;
+    display:flex;
+    align-items: center;
+    margin: 70px 40px;
+}
+
+label{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 25px;
+    color:darkblue;
+}
+
+select{
+    width: 100px;
+    height: 30px;
+    color:brown;
+    font-size: 16px;
+    margin: 10px;
+}
+
+input{
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    margin: 1px 20px; 
+}
+
+#tempResult{
+    background-color:bisque;
+    width: 90px;
+    height: 40%;
+    margin: 1px 20px; 
+    font-size: 20px;
+    padding-left: 35px;
+    padding-top: 8px;
+}
